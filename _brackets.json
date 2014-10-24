@@ -1,0 +1,8 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/wamp/www/ANN/js/highchart/themes/skies.js",
+        "C:/wamp/www/ANN/js/menus.js",
+        "C:/wamp/www/ANN/js/transitions.js",
+        "C:/wamp/www/ANN/js/charts.js"
+    ]
+}

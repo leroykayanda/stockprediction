@@ -1,0 +1,151 @@
+@font-face{
+    font-family: Pompiere-Regular;
+    src: url('Pompiere-Regular.otf');
+}
+@font-face{
+    font-family: lato;
+    src: url('Lato-Reg.ttf');
+}
+body
+{
+    background-colors:rgb(245, 245, 245);
+	background:url("../img/greyish.png") repeat;
+}
+#gn-menu
+{
+    border-bottom:1px solid #aaa;
+    box-shadow: 1px 1px 10px #DFDFDF;
+}
+.gn-menu-main,
+.gn-menu-main ul {
+    margin:0;
+    padding:0;
+    color: #5f6f81;
+    font-weight: 300;
+    font-family: 'Lato', monospace;
+    line-height: 60px;
+}
+ul 
+{
+    list-style:none;
+}
+.gn-menu-main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    font-size: 17px;
+    z-index:10;
+     background:#DADADA;
+}
+.gn-menu-main a {
+    display: block;
+    height: 100%;
+    color: #5f6f81;
+    text-decoration: none;
+    cursor: default;
+}
+.gn-menu-main li .darker
+{
+    cursor:pointer;
+    background:rgb(240, 240, 240);
+}
+.gn-menu .light
+{
+    background:#F9F9F9;
+    cursor: pointer;
+}
+.option:hover ,.gn-menu-main li .darker:hover{
+    background:#E34363;
+    color:white;
+}
+.gn-menu-main ul li a
+{
+    color:grey;
+    border-bottom:1px solid #aaa;
+}
+.gn-trigger li a
+{
+    padding-left:10px;
+}
+.gn-triggers
+{
+    width:8%;
+}
+.icon
+{
+    padding-right:17px;
+    font-size:30px;
+}
+.open
+{
+    font-size:40px;
+    cursor:pointer;
+    color:black;
+    position:relative;
+    left:7px;
+    top:10px;
+}
+.open1
+{
+    cursor:default;   
+}
+#open
+{
+    display:inline-block;
+    width:55px;
+    border-right:1px solid #aaa;
+}
+
+.gn-menu-wrapper
+{
+    width:55px;
+    overflow:hidden;
+    position:fixed;
+    left:0;top:65px;
+    transition:all 200ms linear;
+    border-right:1px solid #aaa;
+    border-bottom:1px solid #aaa;
+    height:100%;
+    background:#F9F9F9;
+}
+.gn-scroller {
+    width: 250px;
+    height:auto;
+    margin-top:2px;
+}
+.gn-submenu li {
+    overflow: hidden;
+    height: 0;
+    transition: height 500ms;
+    transition-delay: 200ms;
+}
+
+.mycon
+{
+	padding-left: 15px;
+	font-size: 28px;
+	position: relative;
+	top:5px;
+}
+
+#name
+{
+	padding-left: 20px;
+	font-family:lato,papyrus;
+	font-size: 17px;
+    font-weight: bold;
+}
+
+#selected-stock
+{
+    margin-right: 30px;
+}
+
+#insert-stock
+{
+    font-weight: bold;
+}
+
+

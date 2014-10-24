@@ -1,0 +1,387 @@
+#wrapper
+{
+	margin-top:95px;
+	margin-left:90px;
+	margin-right:10px;
+	padding:10px;
+	position:relative;
+	z-index:0;
+	background:#E8E8E8;
+	height:80%;border-tops: 1px solid #aaa;
+}
+#name
+{
+	padding-left: 20px;
+	font-family:lato,papyrus;
+	font-size: 17px;
+}
+.mycon
+{
+	padding-left: 15px;
+	font-size: 28px;
+	position: relative;
+	top:5px;
+	colors: rgb(0, 169, 224);
+}
+#second
+{
+	colors: rgb(0, 169, 224);
+	text-decorations: overline;
+}
+#wrapper-inner
+{
+	height:100%;
+}
+html
+{
+	height:100%;
+}
+body
+{
+	height:100%;
+	margin:0;
+	padding:0;
+	overflow:auto;
+}
+.x,.y
+{
+	border:1px solid #aaa;
+	min-heights:385px;
+	height:80%;
+	backgrounds:white;
+	overflows: auto;
+}
+.y
+{
+	border:none;
+	backgrounds:#E8E8E8;
+	padding-right:0;
+}
+.x
+{
+	padding:0;
+	background: white;
+}
+.content
+{
+	height:100%;
+}
+#y_inner
+{
+	min-heights:385px;
+	height:100%;
+	border:1px solid #aaa;
+	background:white;
+}
+.title
+{
+	height:45px;
+	background:#DADADA;
+	background: url("../img/stripped-pattern.png") repeat;
+	border-bottom:1px solid #aaa;
+	font-family:lato,papyrus;
+	line-height:45px;
+	padding-left:20px;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:grey;
+	position:relative;
+}
+.titleicons
+{
+	position:absolute;
+	right:20px;
+	top:5px;
+	font-size:30px;
+}
+.specialicon
+{
+	font-size:26px;
+}
+#summary
+{
+	height:100%;
+}
+.i
+{
+	height:100%;
+	border:1px solid #aaa;
+	background:#DADADA;
+	border-radius:10px;
+	padding:0;
+	padding:0;
+}
+.tsum
+{
+	margin:0;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+.title2
+{
+	height:70px;
+	background:#DADADA;
+	border-bottom:1px solid #aaa;
+	font-family:lato,papyrus;
+	line-height:35px;
+	padding-left:20px;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:grey;
+	position:relative;
+}
+.tsum div
+{
+	font-size:13px;
+}
+#sum-icons li i
+{
+	font-size:40px;
+	color:grey;
+}
+#sum-icons li
+{
+	padding-top:15px;
+	font-size:35px;
+	position:relative;
+}
+#sum-icons li .metric
+{
+	position:absolute;
+}
+#sum-icons li span
+{
+	font-size:15px;
+	font-family:lato;
+	padding-left:20px;
+	color:grey;
+}
+#sum-icons li .days
+{
+	color:DeepSkyBlue  ;
+}
+#sum-icons li .days2
+{
+	color:rgb(227, 67, 99);
+}
+#sum-icons li .budget
+{
+	color:#8080C0;
+}
+#sum-icons li .budget2
+{
+	color:rgb(227, 67, 99);
+}
+.j
+{
+	font-family:lato,papyrus;
+	color:grey;
+}
+
+/*TABS STYLING*/
+ul.tabs
+{
+	margin:0;
+	padding:0;
+	float:left;
+	list-style:none;
+	height:33px;
+	border-left:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+	width:100%;
+}
+ul.tabs li
+{
+	float:left;
+	padding:0% 2%;
+	margin:0;
+	cursor:pointer;
+	height:31px;
+	line-height:31px;
+	border:1px solid #aaa;
+	border-left:none;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:16px;
+	background:#eee;
+	position:relative;
+	transition:all 300ms linear;
+	box-sizing:content-box;
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+}
+ul.tabs li.active
+{
+	background:white;
+	border-bottom:1px solid white;
+}
+ul.tabs li.active:hover
+{
+	background:#F9F9F9;
+	cursor:default;
+	
+}
+ul.tabs li:hover
+{
+	background:#ccc;
+}
+.tab_container
+{
+	border:1px solid #aaa;
+	border-top:none;
+	clear:both;
+	float:left;
+	width:100%;
+	background:#F9F9F9;
+	
+}
+.tab_content
+{
+	padding:20px;
+	display:none;
+	background: white;
+	
+}
+/*END OF TAB STYLING*/
+
+#milestones li,#deliverables li,#resources
+{
+	padding-bottom:10px;
+	font-size:18px;
+}
+.milecons,.delicons
+{
+	padding-right:10px;
+	font-size:24px;
+}
+.icon-remove-sign
+{
+	cursor:pointer;
+}
+.pointer
+{
+	cursor:pointer;
+}
+.blue
+{
+	color:deepskyblue;
+}
+.req-title
+{
+	font-size:15px;
+	text-transform:uppercase;
+	font-weight:bold;animation-iteration-count:
+		}
+.reqs li
+{
+	padding-top:10px;
+	font-size:18px;
+}
+
+#dev-menu
+{
+	font-family: lato,papyrus;
+	padding-right: 20px;
+	margin-bottom:0;
+	padding-bottom: 
+		0;
+	color: grey;
+}
+#dev-menu li
+{
+	cursor: pointer;
+}
+#dev-menu li:hover
+{
+	text-decoration: overline;
+}
+#budget-container
+{
+	margin-top: 6px;
+	min-height: 100%;
+	borders: 1px solid #aaa;
+	padding: 0%;
+	position: relative;
+}
+#budget-container .title
+{
+	text-align: left;
+    height: 35px;
+	line-height: 35px;
+	text-transform: capitalize;
+	font-weight: 550;
+	background: url("../img/stripped-pattern.png") repeat;
+}
+.a,.b,.c
+{
+	border: 1px solid #aaa;
+	height: 100%;
+	float: left;
+	background: white;
+	transition:all 300ms ease;
+	position: relative;
+}
+.a
+{
+	width: 29%;
+	margin-right:1%;
+}
+.b
+{
+	width: 43%;
+	margin-right:1%;
+
+}
+.c
+{
+	width: 26%;
+	overflows: hidden;
+}
+#top-button
+{
+	width: 100px;
+	height: 16px;
+	position: absolute;
+	top: -16px;left: 47%;
+	border: 1px solid #aaa;
+	border-bottom: none;
+	background: #FFEB80;
+	cursor: pointer;
+}
+#left-button
+{
+	height: 100px;
+	width: 4%;
+	position: absolute;
+	top: 35%;right:-4%;
+	border: 1px solid #aaa;
+	border-lefts:none;
+	border-right:none;
+	background: #FFEB80;
+	background: #5B6064;
+	cursor: pointer;
+}
+#right-button
+{
+	height: 100px;
+	width:11px;
+	widths: 13px;
+	position: absolute;
+	top: 35%;left:-11px;
+	lefts: -13px;
+	border: 1px solid #aaa;
+	border-lefts:none;
+	border-rights:none;
+	background: #FFEB80;
+	cursor: pointer;
+}
+#top-button,#left-button,#right-button
+{
+	background: white ;
+}
+.deco
+{
+	padding-right: 10px;
+	font-size: 20px;
+}
+
