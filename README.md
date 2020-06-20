@@ -20,4 +20,3 @@ Contains classes to create and manipulate matrices, which are very important in 
 
 This program does not require a database to work. Data is read from CSV files at run time using the CSVReader class. Therefore the program should work straight from the box once the project has been uploaded on a server
 
-My personal project is at http://leroyonline.biz/
